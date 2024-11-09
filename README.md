@@ -1,30 +1,45 @@
-# aspnet-journal
+# JokeApp
 
 ## Overview
-**aspnet-journal** is a personal learning project built to document my journey through an ASP.NET Core crash course. This web application, created using the Model-View-Controller (MVC) architecture, serves as a joke database where users can view jokes and their answers. Registered users have the option to add new jokes to the database, creating a fun and interactive experience.
+**JokeApp** is a web application built as part of my journey to learn ASP.NET Core. It serves as a simple joke database where users can view and contribute jokes. The project is a hands-on practice with the Model-View-Controller (MVC) pattern, user authentication, and database interactions in ASP.NET Core.
 
 ## Features
-- **Joke Browsing**: Users can view a list of jokes with their answers.
-- **User Registration**: Users can register to gain additional functionality.
-- **Add New Jokes**: Registered users can contribute their own jokes to the database.
+- **Browse Jokes**: View a list of jokes along with their answers.
+- **User Registration**: Register an account to gain access to additional features.
+- **Add New Jokes**: Registered users can contribute their own jokes.
 
 ## Tech Stack
 - **Backend**: ASP.NET Core (MVC)
 - **IDE**: Visual Studio
 - **Database**: SQL Server
 
-## Getting Started
+## Installation and Setup
 
 ### Prerequisites
-- Visual Studio (Community, Professional, or Enterprise)
-- .NET Core SDK installed
+- Visual Studio with .NET Core SDK
+- Database setup
+
+### Steps to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MegRastegar/JokeApp.git
+   ```
+2. Open the project in Visual Studio.
+3. Restore dependencies:
+   ```bash
+   dotnet restore
+   ```
+4. Run the application:
+   ```bash
+   dotnet run
+   ```
 
 ### Configuration
-- Ensure any necessary environment variables or database connection strings are set up in `appsettings.json`.
+Make sure any required environment variables or database connection strings are set up in `appsettings.json`.
 
 ## Usage
-- Access the app in your browser by navigating to `http://localhost: 44316`.
+- Navigate to `http://localhost:44316` in your browser to start the application.
 - Register to create an account and start adding your own jokes.
-  
+
 ## Contributing
-Contributions are welcome! If you have suggestions for new features or improvements, feel free to submit an issue or a pull request. This project is primarily for learning, so constructive feedback and code contributions are appreciated.
+Suggestions for new features and improvements are welcome! Please feel free to submit issues or pull requests.
